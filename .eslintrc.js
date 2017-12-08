@@ -375,7 +375,6 @@ module.exports = {
         'library/**',
         'modules/**',
         'stage/**',
-        'tests/observables/**',
         'tests/promises-aplus/**',
         'web/**',
       ],
