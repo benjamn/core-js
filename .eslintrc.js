@@ -382,6 +382,13 @@ module.exports = {
       rules: es3,
     },
     {
+      settings: {
+        'import/resolver': {
+          webpack: {
+            config: require('./.webpack.config.js').options,
+          },
+        },
+      },
       files: [
         'tests/helpers/**',
         'tests/pure/**',
